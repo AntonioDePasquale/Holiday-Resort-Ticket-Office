@@ -2,6 +2,8 @@
 
 Java program to aid a Holiday Resort ticket office. The program will handle the booking and cancellation of various activities.
 
+Created a more complex java program involving the above concepts. The program was designed to help with the work a holiday resort clerk may need to do. functionality such as book in, check out and book activities from a number of limited slots for customers.
+
 
 The aim of this project were as follows.
 
@@ -14,6 +16,3 @@ The aim of this project were as follows.
 •	Algorithms – searching and sorting
 
 •	Data structures – Stacks, queues and their applications
-
-•	Created a more complex java program involving the above concepts. The program was designed to help with the work a holiday resort clerk may need to do. functionality such as book in, check out and book activities from a number of limited slots for customers.
-
