@@ -1,0 +1,17 @@
+6
+Hiking
+4
+Bowling
+8
+Cycling
+10
+Sailing
+3
+Football
+22
+Table Tennis
+4
+3
+Michael Smith
+Anna Smith
+Ted Jones

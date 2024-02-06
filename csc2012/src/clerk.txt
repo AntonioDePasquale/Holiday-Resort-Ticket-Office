@@ -1,0 +1,488 @@
+// f - to finish running the program //
+
+f
+Exiting the program
+
+Process finished with exit code 0
+
+// a - to display on the screen information about all the activities //
+
+a
+The available activities and their ticket numbers are listed below.
+
+--------------------------------
+Name:      Bowling
+Tickets:   8
+--------------------------------
+Name:      Cycling
+Tickets:   10
+--------------------------------
+Name:      Football
+Tickets:   22
+--------------------------------
+Name:      Hiking
+Tickets:   4
+--------------------------------
+Name:      Sailing
+Tickets:   3
+--------------------------------
+Name:      Table Tennis
+Tickets:   4
+--------------------------------
+
+// c - to display on the screen information about all the customers //
+
+c
+The current registered customers are listed below.
+
+--------------------------------
+Ted Jones
+Anna Smith
+Michael Smith
+--------------------------------
+
+// t - to update the stored data when tickets are bought by one of the registered customers //
+
+//buying first activity tickets - Anna Smith //
+
+t
+
+Enter the first name
+Anna
+
+Enter the last name
+Smith
+
+The name entered is a registered customer
+
+Would you like to update this customers tickets?
+(Yes to update, any other key to return)
+
+Yes
+Enter the Activity this customer wishes to buy tickets for
+
+Football
+
+The activity entered is an available activity
+
+To update this customers tickets enter the number of tickets they want to buy
+
+10
+10 tickets have been successfully bought
+The new number of remaining tickets for football is 12
+
+The activity football has now been registered with customer Anna Smith
+--------------------------------
+Name:      football
+Tickets:   10
+--------------------------------
+
+//Buying second activity tickets - Anna Smith //
+
+t
+
+Enter the first name
+Anna
+
+Enter the last name
+Smith
+
+The name entered is a registered customer
+
+Would you like to update this customers tickets?
+(Yes to update, any other key to return)
+
+yes
+Enter the Activity this customer wishes to buy tickets for
+
+Table Tennis
+
+The activity entered is an available activity
+
+To update this customers tickets enter the number of tickets they want to buy
+
+2
+2 tickets have been successfully bought
+The new number of remaining tickets for table tennis is 2
+
+The activity table tennis has now with customer Anna Smith
+
+--------------------------------
+Name:      football
+Tickets:   10
+--------------------------------
+Name:      table tennis
+Tickets:   2
+--------------------------------
+
+// Buying third set of activity tickets - Anna Smith //
+
+t
+
+Enter the first name
+Anna
+
+Enter the last name
+Smith
+
+The name entered is a registered customer
+
+Would you like to update this customers tickets?
+(Yes to update, any other key to return)
+
+yes
+Enter the Activity this customer wishes to buy tickets for
+
+Cycling
+
+The activity entered is an available activity
+
+To update this customers tickets enter the number of tickets they want to buy
+
+4
+4 tickets have been successfully bought
+The new number of remaining tickets for cycling is 6
+
+The activity cycling has now with customer Anna Smith
+
+--------------------------------
+Name:      cycling
+Tickets:   4
+--------------------------------
+Name:      football
+Tickets:   10
+--------------------------------
+Name:      table tennis
+Tickets:   2
+--------------------------------
+
+// Attempting to buy fourth set of activity tickets - Anna Smith //
+
+t
+
+Enter the first name
+Anna
+
+Enter the last name
+Smith
+
+The name entered is a registered customer
+
+Would you like to update this customers tickets?
+(Yes to update, any other key to return)
+
+yes
+Enter the Activity this customer wishes to buy tickets for
+
+Bowling
+
+The activity entered is an available activity
+
+To update this customers tickets enter the number of tickets they want to buy
+
+3
+3 tickets have been successfully bought
+The new number of remaining tickets for bowling is 5
+
+This customers activity list was unable to be updated and may be full
+The list of registered activities for this customer is shown below
+
+--------------------------------
+Name:      cycling
+Tickets:   4
+--------------------------------
+Name:      football
+Tickets:   10
+--------------------------------
+Name:      table tennis
+Tickets:   2
+--------------------------------
+
+This customers activity list was unable to be updated and may be full
+The list of registered activities for this customer is shown below
+
+
+--------------------------------
+Name:      cycling
+Tickets:   4
+--------------------------------
+Name:      football
+Tickets:   10
+--------------------------------
+Name:      table tennis
+Tickets:   2
+--------------------------------
+
+
+This customers activity list was unable to be updated and may be full
+The list of registered activities for this customer is shown below
+
+--------------------------------
+Name:      cycling
+Tickets:   4
+--------------------------------
+Name:      football
+Tickets:   10
+--------------------------------
+Name:      table tennis
+Tickets:   2
+--------------------------------
+
+// attempting name input that is not a customer //
+
+t
+
+Enter the first name
+Jimmy
+
+Enter the last name
+Bobby
+
+The name entered is not a registered customer
+
+// correct name input but incorrect activity name input - Michael Smith //
+
+t
+
+Enter the first name
+Michael
+
+Enter the last name
+Smith
+
+The name entered is a registered customer
+
+Would you like to update this customers tickets?
+(Yes to update, any other key to return)
+
+yes
+Enter the Activity this customer wishes to buy tickets for
+
+Karate
+
+The activity entered is not an available activity
+
+// correct name, correct activity but incorrect ticket input (not an integer value) //
+
+t
+
+Enter the first name
+Michael
+
+Enter the last name
+Smith
+
+The name entered is a registered customer
+
+Would you like to update this customers tickets?
+(Yes to update, any other key to return)
+
+yes
+Enter the Activity this customer wishes to buy tickets for
+
+Football
+
+The activity entered is an available activity
+
+To update this customers tickets enter the number of tickets they want to buy
+
+two
+Enter a valid number only
+
+// trying to buy too many tickets - Anna Smith //
+
+t
+
+Enter the first name
+Anna
+
+Enter the last name
+Smith
+
+The name entered is a registered customer
+
+Would you like to update this customers tickets?
+(Yes to update, any other key to return)
+
+yes
+Enter the Activity this customer wishes to buy tickets for
+
+football
+
+The activity entered is an available activity
+
+To update this customers tickets enter the number of tickets they want to buy
+
+100
+There are not enough tickets left to buy that many
+football has 12 tickets left
+
+A letter has been printed to the customer file to let them know that the tickets could not be purchased.
+
+// Buying tickets for an activity already registered with a customer - Anna Smith //
+
+t
+
+Enter the first name
+Anna
+
+Enter the last name
+Smith
+
+The name entered is a registered customer
+
+Would you like to update this customers tickets?
+(Yes to update, any other key to return)
+
+yes
+Enter the Activity this customer wishes to buy tickets for
+
+Football
+
+The activity entered is an available activity
+
+To update this customers tickets enter the number of tickets they want to buy
+
+4
+4 tickets have been successfully bought
+The new number of remaining tickets for football is 8
+
+This customers activity list was unable to be updated and may be full
+The list of registered activities for this customer is shown below
+
+That activity is already registered with customer Anna Smith
+The ticketsBought count has been updated to 14 from 10
+
+--------------------------------
+Name:      cycling
+Tickets:   4
+--------------------------------
+Name:      football
+Tickets:   14
+--------------------------------
+Name:      table tennis
+Tickets:   2
+--------------------------------
+
+// r - to update the stored data when a registered customer cancels tickets for a booking //
+
+// successfully cancelling tickets - Anna Smith //
+
+r
+
+Enter the first name
+Anna
+
+Enter the last name
+Smith
+
+The name entered is a registered customer
+
+Would you like to update this customers tickets?
+(Yes to update, any other key to return)
+
+yes
+
+The name entered is a registered customer
+
+Enter the Activity this customer wants to cancel tickets for
+
+Football
+
+The activity entered is an available activity
+
+To update this customers tickets enter the number of tickets you wish to cancel
+
+6
+
+football is registered with customer Anna Smith
+6 tickets have been cancelled successfully. This customer now has 8 tickets
+--------------------------------
+Name:      cycling
+Tickets:   4
+--------------------------------
+Name:      football
+Tickets:   8
+--------------------------------
+Name:      table tennis
+Tickets:   2
+--------------------------------
+
+
+The new number of remaining tickets for football is 14
+
+// Trying to cancel more tickets than the customer has - Anna Smith //
+
+r
+
+Enter the first name
+Anna
+
+Enter the last name
+Smith
+
+The name entered is a registered customer
+
+Would you like to update this customers tickets?
+(Yes to update, any other key to return)
+
+yes
+
+The name entered is a registered customer
+
+Enter the Activity this customer wants to cancel tickets for
+
+Football
+
+The activity entered is an available activity
+
+To update this customers tickets enter the number of tickets you wish to cancel
+
+100
+
+football is registered with customer Anna Smith
+
+This customer only has 8 tickets and cannot cancel 100 tickets
+
+// cancelling all the tickets for an activity registered with a customer (removes activity) //
+
+r
+
+Enter the first name
+Anna
+
+Enter the last name
+Smith
+
+The name entered is a registered customer
+
+Would you like to update this customers tickets?
+(Yes to update, any other key to return)
+
+yes
+
+The name entered is a registered customer
+
+Enter the Activity this customer wants to cancel tickets for
+
+Football
+
+The activity entered is an available activity
+
+To update this customers tickets enter the number of tickets you wish to cancel
+
+8
+
+football is registered with customer Anna Smith
+8 tickets have been cancelled successfully
+There are no remaining tickets for football so the activity has been removed
+--------------------------------
+Name:      cycling
+Tickets:   4
+--------------------------------
+Name:      table tennis
+Tickets:   2
+--------------------------------
+
+
+The new number of remaining tickets for football is 22
